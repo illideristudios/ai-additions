@@ -7,6 +7,16 @@
   },
   "plugins": [
     {
+      "name": "brainstorming",
+      "description": "Skill: find out what the user actually wants, and why, before building anything. Extracted from obra/superpowers (MIT).",
+      "version": "0.1.0",
+      "source": "./plugins/brainstorming",
+      "author": {
+        "name": "Zach Gardner",
+        "email": "locriani@gmail.com"
+      }
+    },
+    {
       "name": "extras",
       "description": "Five skills: code-review, time-estimation, defect-density, dev-velocity, skill-perf-judge.",
       "version": "1.1.0",

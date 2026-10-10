@@ -58,6 +58,7 @@ Every other row is still keep-to-side.
 | `extras` | 2026-09-13 | "pending list so far is approved"; 2026-09-24 code-review personas — "Thomas Ptacek - add. Joshua Bloch - add. Kent Beck - add. Brendan Greg - perfect. Leslie Lamport - yes. Leonie Watson - yes." (Zach) | **Yes** — 2026-09-24 15:24 CT, on "code review skill is approved for enablement" then "do it" after being told this enables all five skills: `claude plugin install extras@ai-additions --scope user` (1.1.0) |
 | `repo-scaffold` | 2026-09-13 | "pending list so far is approved" | No |
 | `prd-design` | 2026-09-15 | plan "prd-design — and the four around it" approved | No |
+| `brainstorming` | 2026-10-09 | "1 only if it's license compatible" (Zach), choosing a new plugin in ai-additions for the SKILL.md body of the superpowers brainstorming skill; MIT upstream and MIT here, checked | No — added, not enabled |
 
 ### Rules — `rules/`, copied verbatim, deployed nowhere
 
