@@ -38,7 +38,7 @@
     },
     {
       "name": "goodnight",
-      "description": "Skill: /goodnight — unattended overnight triage with a spend budget and an append-only action log.",
+      "description": "Skill: /goodnight — unattended overnight triage with a spend budget, container-only spikes and an append-only action log.",
       "version": "1.0.0",
       "source": "./plugins/goodnight",
       "author": {
