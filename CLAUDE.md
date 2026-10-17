@@ -7,6 +7,16 @@ Portable Claude Code behaviour additions, shaped as a plugin marketplace.
 - `.claude-plugin/marketplace.json` — the registry. One entry per plugin
   carried here. A plugin in the repo is a plugin installed; there is no
   separate enablement step.
+
+  ```
+  R(p) := p is under plugins/ and registered in marketplace.json
+  I(p) := p is installed for the user
+  E    := a separate enablement step exists
+
+  1.  ∀p: R(p) → I(p)      [a plugin in the repo is a plugin installed]
+  2.  ¬E                    [there is no separate enablement step]
+  ∴   adding p to the repo means installing it, with no second approval
+  ```
 - `plugins/<name>/` — one directory per addition, each with its own
   `.claude-plugin/plugin.json`, plus `skills/`, `hooks/`, and/or MCP source.
   Nine additions are carried here: `brainstorming`, `extras`,
