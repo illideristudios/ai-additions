@@ -13,9 +13,9 @@ stays here is the part that governs the family:
   Configs.
 - [`referenced/`](referenced/) — one pointer per addition that lives elsewhere.
   Never a vendored copy.
-- [`plugins/`](plugins/) — the eight additions carried locally.
+- [`plugins/`](plugins/) — the nine additions carried locally.
 - [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) —
-  registers those eight.
+  registers those nine.
 
 ## The one rule
 
@@ -33,7 +33,7 @@ claude plugin marketplace add locriani/<name>
 claude plugin install <name>@<name>
 ```
 
-The eight local plugins install from this marketplace as before:
+The nine local plugins install from this marketplace as before:
 
 ```sh
 claude plugin marketplace add locriani/ai-additions
@@ -63,6 +63,7 @@ Still local — registered in this repo's marketplace, source under
 | [`brainstorming`](plugins/brainstorming/) | Finds out what the user actually wants, and why, before anything is built. SKILL.md body from obra/superpowers (MIT). |
 | [`extras`](plugins/extras/) | Five skills: code-review, time-estimation, defect-density, dev-velocity, skill-perf-judge. |
 | [`github-utilities`](plugins/github-utilities/) | Enforces [`rules/GITHUB.md`](rules/GITHUB.md): `gh-issue` files issues from the repo's own templates with native relationships; a PreToolUse guard and a Stop hook hold `gh` to the same rules. |
+| [`goodnight`](plugins/goodnight/) | `/goodnight` before sleep: finishes what needs no input, defaults the cheap-to-undo on separate branches, parks the rest with its prep done, within a spend budget and an append-only action log. |
 | [`logic-rendering`](plugins/logic-rendering/) | Renders logic — conditionals, implications, multi-premise reasoning — as boolean/modal notation alongside short prose. |
 | [`prd-design`](plugins/prd-design/) | Interviews before writing a PRD, then decomposes into ordered vertical slices led by a tracer bullet. |
 | [`repo-scaffold`](plugins/repo-scaffold/) | One-shot per-stack new-repo scaffolding (see the ledger notes on its plugin deployment). |

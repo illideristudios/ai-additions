@@ -1,0 +1,17 @@
+{
+  "name": "goodnight",
+  "description": "Skill: /goodnight before sleep — finish what needs no input, take cheap-to-undo defaults on separate branches, park the rest with its prep done, spend within a per-item and per-night budget, and log every action append-only.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zach Gardner",
+    "email": "locriani@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "unattended",
+    "overnight",
+    "triage",
+    "budget",
+    "audit-log"
+  ]
+}

@@ -59,6 +59,7 @@ Every other row is still keep-to-side.
 | `repo-scaffold` | 2026-09-13 | "pending list so far is approved" | No |
 | `prd-design` | 2026-09-15 | plan "prd-design — and the four around it" approved | No |
 | `brainstorming` | 2026-10-09 | "1 only if it's license compatible" (Zach), choosing a new plugin in ai-additions for the SKILL.md body of the superpowers brainstorming skill; MIT upstream and MIT here, checked | No — added, not enabled |
+| `goodnight` | 2026-10-16 | "let's also add this to my ai-additions please" — given about the `/goodnight` skill just written as a personal skill, the same shape as the `mermaid-system-design` instruction "add / register in ai-additions" | No — the personal copy stays live, so registering without enabling removes nothing |
 
 ### Rules — `rules/`, copied verbatim, deployed nowhere
 

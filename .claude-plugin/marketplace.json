@@ -37,6 +37,16 @@
       }
     },
     {
+      "name": "goodnight",
+      "description": "Skill: /goodnight — unattended overnight triage with a spend budget and an append-only action log.",
+      "version": "1.0.0",
+      "source": "./plugins/goodnight",
+      "author": {
+        "name": "Zach Gardner",
+        "email": "locriani@gmail.com"
+      }
+    },
+    {
       "name": "logic-rendering",
       "description": "Skill: render logic as boolean/modal checksums alongside prose.",
       "version": "1.0.0",
