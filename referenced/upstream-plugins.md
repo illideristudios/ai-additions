@@ -19,7 +19,7 @@ claude plugin install security-guidance@claude-plugins-official
 From `anthropics/claude-plugins-official`, already a registered marketplace on
 this machine. Also listed in `Standard Configs`'
 `external/claude-plugins/templates/plugin-set.txt`, so there are two owners for
-it now — see [`../SETUP-LIST.md`](../SETUP-LIST.md).
+it now.
 
 ## superpowers
 

@@ -23,11 +23,6 @@ macOS `chflags uappnd` has the filesystem refuse anything but appends; elsewhere
 append-only holds by rule. To delete a log on macOS: `chflags nouappnd <file>`
 first.
 
-## Status
-
-**Not enabled.** Registered in this marketplace, installed nowhere. Enabling is a
-separate decision — see [`../../SETUP-LIST.md`](../../SETUP-LIST.md).
-
 ## Provenance
 
 Written 2026-10-16 as a personal skill at

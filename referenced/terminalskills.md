@@ -35,7 +35,7 @@ prd-design defaults to ¬A            ∴ needs a bridge either way
 
 The HITL/AFK tag is the one idea here worth lifting even if the skill is not.
 
-## Install (when enabled)
+## Install
 
 ```sh
 claude plugin marketplace add TerminalSkills/skills

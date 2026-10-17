@@ -12,10 +12,6 @@ point is verifying *comprehension*, not decorating the answer.
 It fires on its own triggers and skips statements with no logic to check — plain
 facts, single unconditional instructions, opinions.
 
-## Status
-
-**Enabled** 2026-09-16 on "datetime-inject logic-rendering are approved for enabling": `claude plugin install logic-rendering@ai-additions`, user scope.
-
 ## Provenance
 
 From `Standard Configs/claude-core/claude-md/templates/global/LOGIC_RENDERING.md`

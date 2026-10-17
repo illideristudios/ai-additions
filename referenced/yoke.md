@@ -33,7 +33,7 @@ install(yoke) ≡ adopt(workflow)     ≠  add(skill)
 
 Taking `/prd` and `/issues` alone is not offered; the commands share a plugin.
 
-## Install (when enabled)
+## Install
 
 ```sh
 claude plugin marketplace add github:yokeloop/yoke

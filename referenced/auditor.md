@@ -3,8 +3,7 @@
 **Upstream:** [`locriani/auditor`](https://github.com/locriani/auditor) (private) — created by Zach
 2026-09-19, pushed the same evening.
 **Local checkout:** `~/Developer/auditor`
-**Status:** approved and enabled 2026-09-15 as `codebase-audit`, a plugin in this repo (see
-`SETUP-LIST.md`). Extracted to its own repo 2026-09-19 and renamed, plugin id `codebase-audit` →
+**Status:** approved and enabled 2026-09-15 as `codebase-audit`, a plugin in this repo. Extracted to its own repo 2026-09-19 and renamed, plugin id `codebase-audit` →
 `auditor`, version 1.4.2 → 2.0.0. The six commits of its history came out with it via
 `git subtree split`. **The name is provisional** — Zach, 2026-09-19: *"just call it Auditor for
 now."* Installed from the new marketplace at 2026-09-19 21:05 on *"CIMP it"*, user scope, 2.0.0,

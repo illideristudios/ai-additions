@@ -37,7 +37,7 @@ gate the fork has no equivalent of.
 Enabling both would put two PreToolUse denies on the same tool. The fork should
 go when this is turned on.
 
-## Install (when enabled)
+## Install
 
 ```sh
 claude plugin marketplace add locriani/asking-protocol   # private; needs an SSH key

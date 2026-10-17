@@ -7,10 +7,9 @@ is, how it installs. Never a vendored copy.
 A vendored copy is a second source of truth that goes stale silently, and reads
 exactly like a current one. See [`../CLAUDE.md`](../CLAUDE.md).
 
-Nothing here is installed or enabled by being listed. See
-[`../SETUP-LIST.md`](../SETUP-LIST.md) for approval state.
+Being listed here installs nothing; each pointer says how its item installs.
 
-| Item | Source | Kind | Approved |
+| Item | Source | Kind | Added |
 |---|---|---|---|
 | [`asking-protocol`](asking-protocol.md) | [`locriani/asking-protocol`](https://github.com/locriani/asking-protocol) | Plugin (private repo) — MCP to stay disabled | 2026-09-13 |
 | [`reference-points`](reference-points.md) | [`locriani/reference-points`](https://github.com/locriani/reference-points) | Plugin (public repo) | 2026-09-13 |

@@ -46,10 +46,6 @@ a path that exists on the authoring machine and nowhere after install. Recorded,
 not fixed — converting the shim and the command to `${CLAUDE_PLUGIN_ROOT}` is a
 behaviour change, and this plugin is not enabled.
 
-## Status
-
-**Not enabled.** Registered in this marketplace, installed nowhere.
-
 ## Provenance
 
 From `Standard Configs/claude-core/repo-scaffold/templates/` at `d36d794`, all

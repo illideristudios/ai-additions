@@ -32,9 +32,7 @@ uv run --quiet --with pyyaml python -m unittest discover -s plugins/github-utili
 
 `gh` is injected as a Python callable; the guard's end-to-end cases run the real hook against the real `gh-issue check`.
 
-## Status
-
-**Enabled** — 2026-09-22, 2.1.0, user scope. See the `github-utilities` row in `SETUP-LIST.md` for the approval wording.
+## Install
 
 Installing is the whole install. Both hooks are wired by `hooks/hooks.json`, and `bin/gh-issue` sits at the default `bin/` location, which Claude Code adds to the Bash tool's `PATH` while the plugin is enabled.
 

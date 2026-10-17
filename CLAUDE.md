@@ -2,42 +2,24 @@
 
 Portable Claude Code behaviour additions, shaped as a plugin marketplace.
 
-## Rule 0 — the approval gate
-
-**Nothing is added to this repo without Zach explicitly approving it by name.**
-
-The approval phrase is a specific statement — *"X is approved for addition"* or
-similar wording naming the item. Approval is **not** implied by discussion, by an
-item appearing on a wishlist, by it being asked about or scoped, by it obviously
-working, or by a prior approval of something adjacent.
-
-Concretely, before creating any file under `plugins/` or adding any entry to
-`.claude-plugin/marketplace.json`, check [`SETUP-LIST.md`](SETUP-LIST.md). If the
-item is not in the **Approved** table, stop and ask for the approval phrase. Do
-not build it "ready for when it's approved" — a built-but-unregistered plugin is
-the thing this rule exists to prevent.
-
-`SETUP-LIST.md` is the ledger and outranks any assumption about what was meant.
-Moving a row into **Approved** requires recording the wording that granted it.
-
 ## Structure
 
-- `.claude-plugin/marketplace.json` — the registry. One entry per approved
-  plugin still carried here.
+- `.claude-plugin/marketplace.json` — the registry. One entry per plugin
+  carried here. A plugin in the repo is a plugin installed; there is no
+  separate enablement step.
 - `plugins/<name>/` — one directory per addition, each with its own
   `.claude-plugin/plugin.json`, plus `skills/`, `hooks/`, and/or MCP source.
   Nine additions are carried here: `brainstorming`, `extras`,
   `github-utilities`, `goodnight`, `logic-rendering`, `prd-design`,
   `repo-scaffold`, `skill-perf`, and `worktree-guard`. The extracted five live in their own repos — see
   `referenced/`.
-- `SETUP-LIST.md` — approved / pending / declined.
 
 ## Referenced, not absorbed
 
 An addition that already has its own repo stays there and installs from that
 repo's own marketplace (`claude plugin marketplace add locriani/<name>`, then
-`claude plugin install <name>@<name>`). `SETUP-LIST.md` records the
-coordinates and `referenced/` points to it. Vendoring a copy creates a second
+`claude plugin install <name>@<name>`). `referenced/` holds a
+pointer with its coordinates. Vendoring a copy creates a second
 source of truth that goes stale silently, which is the failure mode this
 convention exists to avoid.
 

@@ -4,12 +4,6 @@ A skill. Finds out what the user actually wants, and why, before anything gets
 built: an open first question, one question per message, playback in chunks, a
 size call, and a hard gate until the description is approved.
 
-## Status
-
-**Added, not enabled.** Approved 2026-10-09 on "1 only if it's license compatible"
-(Zach), answering which destination the extracted skill should live in; the licenses
-were checked and are compatible (MIT / MIT). Enabling is a separate approval.
-
 ## Provenance
 
 The `SKILL.md` body of [`obra/superpowers`](https://github.com/obra/superpowers)

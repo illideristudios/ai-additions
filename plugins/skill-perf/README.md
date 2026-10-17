@@ -21,11 +21,11 @@ skill use and defeat the measurement.
 ## Two halves, two plugins
 
 The judge is the [`skill-perf-judge`](../extras/skills/skill-perf-judge/) skill,
-which ships in [`extras`](../extras/). **Enabling this plugin alone gives you
+which ships in [`extras`](../extras/). **Installing this plugin alone gives you
 capture with nothing to score the rows.** That split is upstream's, preserved
-here because both were approved as described.
+here.
 
-## Enabling takes more than installing
+## Installing takes one more step
 
 The scripts run from `${CLAUDE_PLUGIN_ROOT}`, but the ledger is per-machine data
 and its paths are hardcoded to `~/.claude/skill-perf/`:
@@ -41,11 +41,6 @@ steps are needed, in that order. The scripts are byte-identical to source and
 have deliberately **not** been rewritten to run out of the plugin directory —
 the ledger is data and belongs in `~/.claude`, not inside a plugin that a
 reinstall could replace.
-
-## Status
-
-**Not enabled.** Registered in this marketplace, installed nowhere, and no
-database has been created.
 
 ## Provenance
 

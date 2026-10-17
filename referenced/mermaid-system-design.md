@@ -5,7 +5,7 @@
 split out of this repo 2026-10-10; CI green at head `ae68949` (18 tests).
 **Status:** approved and enabled 2026-09-15 on *"add / register in ai-additions"* — given while the
 skill was already loaded and working as a personal skill, so registering it without enabling it
-would have removed a working skill, and it went in switched on. See `SETUP-LIST.md`. Extracted
+would have removed a working skill, and it went in switched on. Extracted
 2026-10-10 from [`locriani/ai-additions`](https://github.com/locriani/ai-additions) at `a01d7eb`,
 history carried with the extraction; the row moved from the Plugins table to Referenced with
 wording unchanged. Plugin id and version are unchanged (1.1.0 at extraction).
