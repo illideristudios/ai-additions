@@ -1,7 +1,7 @@
 {
   "name": "repo-scaffold",
   "description": "One-shot per-stack new-repo scaffolding: /scaffold-repo slash command and a scaffold-repo CLI that lay down CLAUDE.md, DEV_TOOLS.md, README, .gitignore, the stack's directory skeleton, git init, and optionally gh repo create.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Zach Gardner",
     "email": "locriani@gmail.com"

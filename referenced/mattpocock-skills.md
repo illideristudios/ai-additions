@@ -40,7 +40,7 @@ Second cost: `to-spec` depends on triage-label vocabulary established by a
 `to-spec` itself is superseded here by [`prd-design`](../plugins/prd-design/),
 which interviews rather than synthesizes.
 
-## Install (when enabled)
+## Install
 
 ```sh
 claude plugin marketplace add mattpocock/skills

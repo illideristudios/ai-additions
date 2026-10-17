@@ -1,14 +1,14 @@
 # ai-additions
 
-The governance home for Zach Gardner's Claude Code behaviour additions: the
-approval ledger, the shared rules, and the plugins that still live here.
+The home for Zach Gardner's Claude Code behaviour additions: the shared rules,
+pointers to the additions that live elsewhere, and the plugins that still live
+here.
 
 This began as a single plugin marketplace. The plugins that wanted their own
 identity now have it — on 2026-10-10, five of them were extracted at `a01d7eb`
 into their own public repositories, each its own Claude Code marketplace. What
-stays here is the part that governs the family:
+stays here:
 
-- [`SETUP-LIST.md`](SETUP-LIST.md) — the approval ledger. Read this first.
 - [`rules/`](rules/) — six prose rule documents, verbatim copies from Standard
   Configs.
 - [`referenced/`](referenced/) — one pointer per addition that lives elsewhere.
@@ -16,12 +16,6 @@ stays here is the part that governs the family:
 - [`plugins/`](plugins/) — the nine additions carried locally.
 - [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) —
   registers those nine.
-
-## The one rule
-
-Nothing enters this repo without Zach explicitly approving it by name.
-Discussion is not approval. See [`SETUP-LIST.md`](SETUP-LIST.md) for the full
-statement — it governs, and this paragraph is only a pointer to it.
 
 ## Installing
 
@@ -45,7 +39,7 @@ Updates: `claude plugin marketplace update <marketplace>` then reinstall.
 ## The catalog
 
 Extracted 2026-10-10 — public repos, each its own marketplace. Each plugin's
-approval story lives in its pointer under [`referenced/`](referenced/):
+pointer lives under [`referenced/`](referenced/):
 
 | Plugin | Repo |
 |---|---|
@@ -66,7 +60,7 @@ Still local — registered in this repo's marketplace, source under
 | [`goodnight`](plugins/goodnight/) | `/goodnight` before sleep: finishes what needs no input, defaults the cheap-to-undo on separate branches, parks the rest with its prep done, within a spend budget, container-only spikes of vetted tools, and an append-only action log. |
 | [`logic-rendering`](plugins/logic-rendering/) | Renders logic — conditionals, implications, multi-premise reasoning — as boolean/modal notation alongside short prose. |
 | [`prd-design`](plugins/prd-design/) | Interviews before writing a PRD, then decomposes into ordered vertical slices led by a tracer bullet. |
-| [`repo-scaffold`](plugins/repo-scaffold/) | One-shot per-stack new-repo scaffolding (see the ledger notes on its plugin deployment). |
+| [`repo-scaffold`](plugins/repo-scaffold/) | One-shot per-stack new-repo scaffolding. |
 | [`skill-perf`](plugins/skill-perf/) | Stop-hook SQLite ledger of skill-invocation cost, plus a judge reminder. |
 | [`worktree-guard`](plugins/worktree-guard/) | Stop hook blocking writes that cross into another worktree of the same repo. |
 

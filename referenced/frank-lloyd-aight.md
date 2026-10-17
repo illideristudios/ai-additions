@@ -2,7 +2,7 @@
 
 **Upstream:** [`locriani/frank-lloyd-aight`](https://github.com/locriani/frank-lloyd-aight) (public)
 **Local checkout:** `~/Developer/frank-lloyd-aight`
-**Status:** approved 2026-09-17 by plan approval ("general-contradictor, a main-session architecture agent", 12:50 CT); renamed by Zach to Frank Lloyd AIght at 13:24 CT, GitHub repo renamed by him; being built in stages, one red eval case turned green then a pause; not installed, not enabled. Enabling is a separate approval.
+**Status:** approved 2026-09-17 by plan approval ("general-contradictor, a main-session architecture agent", 12:50 CT); renamed by Zach to Frank Lloyd AIght at 13:24 CT, GitHub repo renamed by him; being built in stages, one red eval case turned green then a pause.
 
 A Claude Code plugin that ships one agent, `frank-lloyd-aight`, meant to run as the
 **main session**: `claude --agent frank-lloyd-aight`. It reviews the drawings and never
@@ -27,7 +27,7 @@ values itself; if the block is missing it proposes one and creates nothing.
 channel for `AskUserQuestion`. Eight cases planned, each red without the agent and green with
 it on Opus x3. Record: `evals/results/PROGRESS.md`.
 
-## Install (when enabled)
+## Install
 
 ```sh
 claude plugin marketplace add ~/Developer/frank-lloyd-aight

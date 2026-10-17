@@ -15,11 +15,6 @@ Two write surfaces are covered in the last assistant turn:
 
 There is an explicit-intent override; see the hook's own docstring.
 
-## Status
-
-**Not enabled.** Registered in this marketplace, installed nowhere. Enabling is a
-separate decision — see [`../../SETUP-LIST.md`](../../SETUP-LIST.md).
-
 ## Provenance
 
 Extracted verbatim from `Standard Configs/claude-plugins/worktree-guard/` at

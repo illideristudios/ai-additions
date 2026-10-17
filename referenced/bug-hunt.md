@@ -5,7 +5,7 @@ repo 2026-10-10; CI green at head `0dee59d` (24 tests).
 **Status:** approved 2026-09-26 on *"bug-hunt is approved for addition"* (Zach, 18:06), after the plan
 was approved in plan mode; enabled the same evening on *"commit, merge, install, approved for
 enablement"* at 0.1.0; updated to 0.1.1 on *"do it"* after a security review flagged unsandboxed
-Bash — see `SETUP-LIST.md` for the full row. Extracted 2026-10-10 from
+Bash. Extracted 2026-10-10 from
 [`locriani/ai-additions`](https://github.com/locriani/ai-additions) at `a01d7eb`, history carried
 with the extraction and authorship preserved; the row moved from the Plugins table to Referenced
 with wording unchanged. Plugin id and version are unchanged (0.1.1 at extraction).

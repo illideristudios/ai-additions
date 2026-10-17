@@ -1,12 +1,12 @@
 ---
-description: Scaffold a new repo (CLAUDE.md, README.md, .gitignore, stack dirs, git init, optional GitHub create). Wraps ~/.local/bin/scaffold-repo and adds an AI-surface confirmation for the GitHub step.
+description: Scaffold a new repo (CLAUDE.md, README.md, .gitignore, stack dirs, git init, optional GitHub create). Wraps scaffold-repo and adds an AI-surface confirmation for the GitHub step.
 allowed-tools: Bash, Read
 argument-hint: "<target-dir> --stack <stack> [--name <name>] [--github] [--force]"
 ---
 
 # Scaffold a new repo
 
-You are invoking the canonical repo-scaffold script on behalf of the user. The script (`~/.local/bin/scaffold-repo`, backed by `~/.local/share/repo-scaffold/scaffold-new-repo.sh`) does all the work — your job is to:
+You are invoking the canonical repo-scaffold script on behalf of the user. The script (`scaffold-repo`, on the Bash tool's `PATH` from this plugin's `bin/`, backed by the plugin's `scaffold-new-repo.sh`) does all the work — your job is to:
 
 1. Parse `$ARGUMENTS` to extract `<target-dir>`, `--stack`, `--name`, `--github`, `--force`.
 2. Apply the AI-surface confirmation rule for `--github` (see below).
@@ -48,7 +48,7 @@ This prompt only fires for `/scaffold-repo` (the AI surface). The bash CLI (`sca
 After argument resolution, invoke the script via Bash. Pass arguments through unchanged:
 
 ```bash
-~/.local/bin/scaffold-repo <target-dir> --stack <stack> [<other flags>]
+scaffold-repo <target-dir> --stack <stack> [<other flags>]
 ```
 
 The script handles all idempotency, pretty output, and verification internally. Show its output to the user verbatim — don't summarize over it.
