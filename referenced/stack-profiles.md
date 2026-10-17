@@ -22,4 +22,4 @@ claude plugin install stack-profiles@stack-profiles
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after a new
-release, `claude plugin marketplace update stack-profiles` and reinstall.
+release, `claude plugin marketplace update stack-profiles`, then `claude plugin update stack-profiles@stack-profiles`.

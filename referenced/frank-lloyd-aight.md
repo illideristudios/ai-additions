@@ -34,4 +34,4 @@ claude plugin marketplace add ~/Developer/frank-lloyd-aight
 claude plugin install frank-lloyd-aight@frank-lloyd-aight
 ```
 
-Not run. The installed copy will be a version-stamped snapshot under `~/.claude/plugins/cache/`; after editing the checkout, `claude plugin marketplace update frank-lloyd-aight` and reinstall.
+Not run. The installed copy will be a version-stamped snapshot under `~/.claude/plugins/cache/`; after editing the checkout, `claude plugin marketplace update frank-lloyd-aight`, then `claude plugin update frank-lloyd-aight@frank-lloyd-aight`.
