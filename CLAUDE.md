@@ -26,9 +26,9 @@ Moving a row into **Approved** requires recording the wording that granted it.
   plugin still carried here.
 - `plugins/<name>/` — one directory per addition, each with its own
   `.claude-plugin/plugin.json`, plus `skills/`, `hooks/`, and/or MCP source.
-  Seven additions are still carried here: `extras`, `github-utilities`,
-  `logic-rendering`, `prd-design`, `repo-scaffold`, `skill-perf`, and
-  `worktree-guard`. The extracted five live in their own repos — see
+  Eight additions are carried here: `brainstorming`, `extras`,
+  `github-utilities`, `logic-rendering`, `prd-design`, `repo-scaffold`,
+  `skill-perf`, and `worktree-guard`. The extracted five live in their own repos — see
   `referenced/`.
 - `SETUP-LIST.md` — approved / pending / declined.
 
