@@ -22,4 +22,4 @@ claude plugin install datetime-inject@datetime-inject
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after a new
-release, `claude plugin marketplace update datetime-inject` and reinstall.
+release, `claude plugin marketplace update datetime-inject`, then `claude plugin update datetime-inject@datetime-inject`.

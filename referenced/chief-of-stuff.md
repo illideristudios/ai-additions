@@ -32,4 +32,4 @@ claude plugin marketplace add ~/Developer/chief-of-stuff
 claude plugin install chief-of-stuff@chief-of-stuff
 ```
 
-Run 2026-09-16. The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after editing the checkout, `claude plugin marketplace update chief-of-stuff` and reinstall.
+Run 2026-09-16. The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after editing the checkout, `claude plugin marketplace update chief-of-stuff`, then `claude plugin update chief-of-stuff@chief-of-stuff`.

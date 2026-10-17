@@ -26,4 +26,4 @@ claude plugin install branch-graph@branch-graph
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after a new
-release, `claude plugin marketplace update branch-graph` and reinstall.
+release, `claude plugin marketplace update branch-graph`, then `claude plugin update branch-graph@branch-graph`.

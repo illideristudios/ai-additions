@@ -24,4 +24,4 @@ claude plugin install mermaid-system-design@mermaid-system-design
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after a new
-release, `claude plugin marketplace update mermaid-system-design` and reinstall.
+release, `claude plugin marketplace update mermaid-system-design`, then `claude plugin update mermaid-system-design@mermaid-system-design`.

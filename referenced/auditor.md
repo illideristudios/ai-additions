@@ -41,4 +41,4 @@ claude plugin install auditor@auditor
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after editing
-the checkout, `claude plugin marketplace update auditor` and reinstall.
+the checkout, `claude plugin marketplace update auditor`, then `claude plugin update auditor@auditor`.

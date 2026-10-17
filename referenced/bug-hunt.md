@@ -24,4 +24,4 @@ claude plugin install bug-hunt@bug-hunt
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after a new
-release, `claude plugin marketplace update bug-hunt` and reinstall.
+release, `claude plugin marketplace update bug-hunt`, then `claude plugin update bug-hunt@bug-hunt`.

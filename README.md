@@ -34,7 +34,7 @@ claude plugin marketplace add locriani/ai-additions
 claude plugin install <name>@ai-additions
 ```
 
-Updates: `claude plugin marketplace update <marketplace>` then reinstall.
+Updates: `claude plugin marketplace update <marketplace>`, then `claude plugin update <name>@<marketplace>`. Installing again does not upgrade a plugin that is already installed.
 
 ## The catalog
 
