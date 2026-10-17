@@ -69,7 +69,7 @@
     {
       "name": "repo-scaffold",
       "description": "/scaffold-repo command and CLI for one-shot per-stack new-repo scaffolding.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/repo-scaffold",
       "author": {
         "name": "Zach Gardner",
