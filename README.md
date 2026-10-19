@@ -46,6 +46,7 @@ pointer lives under [`referenced/`](referenced/):
 | `branch-graph` | [`locriani/branch-graph`](https://github.com/locriani/branch-graph) |
 | `bug-hunt` | [`locriani/bug-hunt`](https://github.com/locriani/bug-hunt) |
 | `datetime-inject` | [`locriani/datetime-inject`](https://github.com/locriani/datetime-inject) |
+| `gitlab-ci-optimizer` | [`illideristudios/ci-optimization-skill`](https://github.com/illideristudios/ci-optimization-skill) |
 | `mermaid-system-design` | [`locriani/mermaid-system-design`](https://github.com/locriani/mermaid-system-design) |
 | `stack-profiles` | [`locriani/stack-profiles`](https://github.com/locriani/stack-profiles) |
 
