@@ -1,6 +1,6 @@
 # bug-hunt
 
-**Upstream:** [`locriani/bug-hunt`](https://github.com/locriani/bug-hunt) (public) — split out of this
+**Upstream:** [`illideristudios/bug-hunt`](https://github.com/illideristudios/bug-hunt) (public) — split out of this
 repo 2026-10-10; CI green at head `0dee59d` (24 tests).
 **Status:** approved 2026-09-26 on *"bug-hunt is approved for addition"* (Zach, 18:06), after the plan
 was approved in plan mode; enabled the same evening on *"commit, merge, install, approved for
@@ -19,7 +19,7 @@ never fixes in place — and since 0.1.1 its Bash runs in a fail-closed sandbox.
 ## Install
 
 ```sh
-claude plugin marketplace add locriani/bug-hunt
+claude plugin marketplace add illideristudios/bug-hunt
 claude plugin install bug-hunt@bug-hunt
 ```
 

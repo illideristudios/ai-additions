@@ -27,7 +27,7 @@ Portable Claude Code behaviour additions, shaped as a plugin marketplace.
 ## Referenced, not absorbed
 
 An addition that already has its own repo stays there and installs from that
-repo's own marketplace (`claude plugin marketplace add locriani/<name>`, then
+repo's own marketplace (`claude plugin marketplace add illideristudios/<name>`, then
 `claude plugin install <name>@<name>`). `referenced/` holds a
 pointer with its coordinates. Vendoring a copy creates a second
 source of truth that goes stale silently, which is the failure mode this

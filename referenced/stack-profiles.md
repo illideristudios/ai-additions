@@ -1,6 +1,6 @@
 # stack-profiles
 
-**Upstream:** [`locriani/stack-profiles`](https://github.com/locriani/stack-profiles) (public) — split
+**Upstream:** [`illideristudios/stack-profiles`](https://github.com/illideristudios/stack-profiles) (public) — split
 out of this repo 2026-10-10; CI green at head `6764ed9`.
 **Status:** approved 2026-09-13 on *"pending list so far is approved"*, never installed
 here; installing needs the deployment step below. Extracted
@@ -17,7 +17,7 @@ context cost, not eleven. Deployment is a second step: the profiles are copied t
 ## Install
 
 ```sh
-claude plugin marketplace add locriani/stack-profiles
+claude plugin marketplace add illideristudios/stack-profiles
 claude plugin install stack-profiles@stack-profiles
 ```
 

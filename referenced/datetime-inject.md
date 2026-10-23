@@ -1,6 +1,6 @@
 # datetime-inject
 
-**Upstream:** [`locriani/datetime-inject`](https://github.com/locriani/datetime-inject) (public) —
+**Upstream:** [`illideristudios/datetime-inject`](https://github.com/illideristudios/datetime-inject) (public) —
 split out of this repo 2026-10-10; CI green at head `1c31f72`.
 **Status:** approved 2026-09-13 on *"pending list so far is approved"*; enabled 2026-09-16 on
 *"datetime-inject logic-rendering are approved for enabling"*. Extracted
@@ -17,7 +17,7 @@ stamps the date but not the wall clock, and "before EOD" and "overnight" turn on
 ## Install
 
 ```sh
-claude plugin marketplace add locriani/datetime-inject
+claude plugin marketplace add illideristudios/datetime-inject
 claude plugin install datetime-inject@datetime-inject
 ```
 

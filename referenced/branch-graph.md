@@ -1,6 +1,6 @@
 # branch-graph
 
-**Upstream:** [`locriani/branch-graph`](https://github.com/locriani/branch-graph) (public) — split out
+**Upstream:** [`illideristudios/branch-graph`](https://github.com/illideristudios/branch-graph) (public) — split out
 of this repo 2026-10-10; CI green at head `739cd59` (116 tests).
 **Status:** approved and enabled 2026-09-23 on *"branch-graph is approved for addition and enabling"*
 (Zach, 18:42). Installed from this repo's local marketplace the same evening on
@@ -21,7 +21,7 @@ plugin is not installed.
 ## Install
 
 ```sh
-claude plugin marketplace add locriani/branch-graph
+claude plugin marketplace add illideristudios/branch-graph
 claude plugin install branch-graph@branch-graph
 ```
 

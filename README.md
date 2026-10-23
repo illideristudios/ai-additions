@@ -23,7 +23,7 @@ The extracted plugins install from their own marketplaces, one `marketplace
 add` per repo:
 
 ```sh
-claude plugin marketplace add locriani/<name>
+claude plugin marketplace add illideristudios/<name>
 claude plugin install <name>@<name>
 ```
 
@@ -43,12 +43,12 @@ pointer lives under [`referenced/`](referenced/):
 
 | Plugin | Repo |
 |---|---|
-| `branch-graph` | [`locriani/branch-graph`](https://github.com/locriani/branch-graph) |
-| `bug-hunt` | [`locriani/bug-hunt`](https://github.com/locriani/bug-hunt) |
-| `datetime-inject` | [`locriani/datetime-inject`](https://github.com/locriani/datetime-inject) |
+| `branch-graph` | [`illideristudios/branch-graph`](https://github.com/illideristudios/branch-graph) |
+| `bug-hunt` | [`illideristudios/bug-hunt`](https://github.com/illideristudios/bug-hunt) |
+| `datetime-inject` | [`illideristudios/datetime-inject`](https://github.com/illideristudios/datetime-inject) |
 | `gitlab-ci-optimizer` | [`illideristudios/ci-optimization-skill`](https://github.com/illideristudios/ci-optimization-skill) |
-| `mermaid-system-design` | [`locriani/mermaid-system-design`](https://github.com/locriani/mermaid-system-design) |
-| `stack-profiles` | [`locriani/stack-profiles`](https://github.com/locriani/stack-profiles) |
+| `mermaid-system-design` | [`illideristudios/mermaid-system-design`](https://github.com/illideristudios/mermaid-system-design) |
+| `stack-profiles` | [`illideristudios/stack-profiles`](https://github.com/illideristudios/stack-profiles) |
 
 Still local — registered in this repo's marketplace, source under
 [`plugins/`](plugins/):

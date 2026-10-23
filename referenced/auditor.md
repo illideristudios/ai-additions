@@ -1,6 +1,6 @@
 # auditor (working name)
 
-**Upstream:** [`locriani/auditor`](https://github.com/locriani/auditor) (private) — created by Zach
+**Upstream:** [`illideristudios/auditor`](https://github.com/illideristudios/auditor) (public) — created by Zach
 2026-09-19, pushed the same evening.
 **Local checkout:** `~/Developer/auditor`
 **Status:** approved and enabled 2026-09-15 as `codebase-audit`, a plugin in this repo. Extracted to its own repo 2026-09-19 and renamed, plugin id `codebase-audit` →
@@ -36,9 +36,9 @@ have. Porting that harness is unplanned work, not a gap being tracked as nearly 
 ## Install
 
 ```sh
-claude plugin marketplace add ~/Developer/auditor
+claude plugin marketplace add illideristudios/auditor
 claude plugin install auditor@auditor
 ```
 
 The installed copy is a version-stamped snapshot under `~/.claude/plugins/cache/`; after editing
-the checkout, `claude plugin marketplace update auditor`, then `claude plugin update auditor@auditor`.
+the upstream repo, `claude plugin marketplace update auditor`, then `claude plugin update auditor@auditor`.

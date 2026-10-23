@@ -1,7 +1,7 @@
 # mermaid-system-design
 
 **Upstream:**
-[`locriani/mermaid-system-design`](https://github.com/locriani/mermaid-system-design) (public) —
+[`illideristudios/mermaid-system-design`](https://github.com/illideristudios/mermaid-system-design) (public) —
 split out of this repo 2026-10-10; CI green at head `ae68949` (18 tests).
 **Status:** approved and enabled 2026-09-15 on *"add / register in ai-additions"* — given while the
 skill was already loaded and working as a personal skill, so registering it without enabling it
@@ -19,7 +19,7 @@ render-check step pairs with this checker.
 ## Install
 
 ```sh
-claude plugin marketplace add locriani/mermaid-system-design
+claude plugin marketplace add illideristudios/mermaid-system-design
 claude plugin install mermaid-system-design@mermaid-system-design
 ```
 
